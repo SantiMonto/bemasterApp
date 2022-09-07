@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { Card, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col, Container } from 'react-bootstrap';
 import Disney from '../media/Disney.jpg';
 import Marvel from '../media/Marvel.jpg';
 import Nationalg from '../media/Nationalg.png';
-import Pixar from '../media/Pixar.jpg'
-import Starwars from '../media/Starwars.jpg'
+import Pixar from '../media/Pixar.jpg';
+import Starwars from '../media/Starwars.jpg';
 
 
 
@@ -52,6 +52,7 @@ const Home = () => {
                     </Col>
                 ))}
             </Row>
+
         </div>
     )
 }
